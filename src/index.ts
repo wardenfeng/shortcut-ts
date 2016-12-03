@@ -1,0 +1,1 @@
+new feng3d.shortcut.test.shortcut_examples();

@@ -1,0 +1,25 @@
+{
+    "compilerOptions": {
+        "target": "es5",
+        "noImplicitAny": false,
+        "sourceMap": true,
+        "outFile": "out/index.js"
+    },
+    "files": [ //注：如果有继承关系的，父类必须排在子类前面
+        //事件模块
+        "src/me/feng3d/events/Event.ts",
+        "src/me/feng3d/events/IEventDispatcher.ts",
+        "src/me/feng3d/events/EventDispatcher.ts",
+        //快捷键模块
+        "src/me/feng3d/shortcut/handle/KeyCapture.ts",
+        "src/me/feng3d/shortcut/handle/KeyState.ts",
+        "src/me/feng3d/shortcut/handle/ShortCutCapture.ts",
+        "src/me/feng3d/shortcut/handle/ShortCutContext.ts",
+        "src/me/feng3d/shortcut/handle/ShortCutEvent.ts",
+        "src/me/feng3d/shortcut/ShortCut.ts",
+        //
+        "src/ShortcutConfigJson.ts",
+        "src/shortcut_examples.ts",
+        "src/index.ts"
+    ]
+}
